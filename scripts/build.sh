@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-npm build
-cargo 
+npm --prefix frontend run build
+cargo build 
